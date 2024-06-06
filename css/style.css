@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+
+body{background-image: url("../img/keshiki.jpg");
+  background-repeat: no-repeat;
+  background-position:50% 50%;
+  background-size:cover;}
+
+h1 {
+  color: aliceblue;
+  text-align: center;
+  margin: 50px 0;
+  font-size: 40px;
+}
+
+#setumei{
+  color:aliceblue;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+input {
+  width: 500px;
+  padding: 10px;
+  display: block;
+  margin: 0 auto 50px;
+}
+
+textarea {
+  width: 500px;
+  height: 200px;
+  padding: 10px;
+  margin: 0 auto 50px;
+  display: block;
+  resize: none;
+}
+
+button {
+  width: 200px;
+  height: 50px;
+  margin: 0 auto 50px;
+  display: block;
+  font-size: 16px;
+}
+
+#output {
+  width: 500px;
+  display: block;
+  height: 500px;
+  margin: 0 auto;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.msg:nth-child(even) {
+
+  width: 200px;
+  margin-right: auto;
+  margin-top: 10px;
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 6px;
+  background-color: chartreuse;
+
+}
+
+.msg:nth-child(odd) {
+
+  width: 200px;
+  margin-left: auto;
+  margin-top: 10px;
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 6px;
+  background-color: rgb(228, 177, 221);
+
+}
+
+#sender{
+  margin-left: auto;
+  width: 200px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  
+
+}
+
+#tatata:nth-child(odd){
+  margin-right: auto;
+  border: 1px solid gray;
+  width: 200px;
+  margin-top: 10px;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: rgb(93, 153, 36);
+
+}
+
+
